@@ -1,0 +1,25 @@
+{
+  "employees": [
+    {
+      "empId": 101,
+      "firstName": "Yashi",
+      "lastName": "Gupta",
+      "designation" : "Project Trainee",
+      "email": "ygupta@teksystems.com"
+    },
+    {
+      "empId": 102,
+      "firstName": "Aradhya",
+      "lastName": "Asthana",
+      "designation" : "Intern",
+      "email": "aasthana@teksystems.com"
+    },
+    {
+      "empId": 103,
+      "firstName": "Sagarika",
+      "lastName": "Marandi",
+      "designation" : "SDM",
+      "email": "smarandi@teksystems.com"
+    }
+  ]
+}
