@@ -1,0 +1,22 @@
+
+.empCard{
+max-width: 100%;
+max-height: 100%;
+}
+.mat-card-header{
+  left : 0;
+}
+.errorMsg{
+  display : flex;
+  justify-content : center;
+  color: #DC143C ;
+  top : 100px;
+}
+.mat-card {
+  color :#394a6d ;
+display: block;
+  top:50px;
+  max-width :50%;
+  margin : 0 auto;
+
+}

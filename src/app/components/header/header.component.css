@@ -1,0 +1,12 @@
+mat-toolbar {
+  background: #52de97;
+  /* position: fixed; */
+  z-index: 1000 !important;
+}
+
+img{
+  height: 50px;
+  width: 200px;
+  color : #c0ffb3;
+
+}

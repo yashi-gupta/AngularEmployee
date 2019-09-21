@@ -1,0 +1,19 @@
+<div class="empCard" *ngIf="this.employeeExists else showError">
+  <mat-card class="employeeCard">
+
+<mat-card-title>
+    {{firstName}} {{lastName}}
+</mat-card-title>
+<mat-card-subtitle>
+    {{designation}}
+</mat-card-subtitle>
+<mat-card-content>
+<p>Email : {{email}}</p>
+</mat-card-content>
+</mat-card>
+
+</div>
+<ng-template #showError>
+<div class="errorMsg">  <h1>{{msg}}</h1> </div>
+</ng-template>
+

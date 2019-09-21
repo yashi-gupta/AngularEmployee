@@ -1,0 +1,26 @@
+h2{
+  text-align: center;
+  color :  #394a6d;
+}
+button {
+  background-color : #394a6d;
+  color : white;
+  width: 10% !important;
+  align-self: center;
+  margin: 2px;
+}
+.container{
+ display : flex;
+ justify-content: center;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+mat-form-field{
+ width : 30% !important;
+ align-self: center;
+}
+.form-group > * {
+  width: 100%;
+}
